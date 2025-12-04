@@ -59,6 +59,7 @@ pip install -r requirements.txt
 
 🧠 How It Works
 
+```code
 -Fetch webpage
 -Clean HTML → plain text
 -Rule-based extraction for:
@@ -67,6 +68,7 @@ pip install -r requirements.txt
 -data practices
 -Build summary + key points
 -No machine learning needed.
+```
 
 📁 Project Structure
 
