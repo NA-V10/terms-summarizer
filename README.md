@@ -56,33 +56,28 @@ print(terms_agent("https://example.com/terms"))
 ```bash
 pip install -r requirements.txt
 ```
+
 🧠 How It Works
 
-Fetch webpage
-
-Clean HTML → plain text
-
-Rule-based extraction for:
-
-legal keywords
-
-obligations
-
-data practices
-
-Build summary + key points
-
-No machine learning needed.
+-Fetch webpage
+-Clean HTML → plain text
+-Rule-based extraction for:
+-legal keywords
+-obligations
+-data practices
+-Build summary + key points
+-No machine learning needed.
 
 📁 Project Structure
+
+```code
 terms-summarizer/
 │
 ├── terms_agent.py        # main agent logic
 ├── requirements.txt      # dependencies
 ├── README.md             # documentation
-├── banner.png            # optional repo banner
-└── notebooks/
-    └── demo.ipynb        # example notebook (optional)
+├── banner.png            
+```
 
 🤝 Contributing
 
